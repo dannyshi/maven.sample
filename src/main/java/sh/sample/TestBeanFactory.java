@@ -7,7 +7,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class TestBeanFactory {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// TODO Auto-generated method stub 20160425
 		ApplicationContext context = new ClassPathXmlApplicationContext(
 		        new String[] {"a.xml", "b.xml"});
 		// of course, an ApplicationContext is just a BeanFactory
